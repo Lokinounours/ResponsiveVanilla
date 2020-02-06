@@ -42,6 +42,7 @@ li {
 body {
     background: var(--secondary);
     overflow-x: hidden; /* When the logo image is push on the right of the screen of mobile, the user can not scroll */
+    max-width: 100%;
 }
 
 .button{
@@ -178,9 +179,10 @@ h4 {
 }
 
 #skills div{
+    margin: 10px 10px 0 10px;
     padding: 10px;
     /* background: #6C63FF30; */
-    grid-column: span 4;
+    grid-column: span 8;
     text-align: center;
 }
 
@@ -294,6 +296,9 @@ footer i {
     }
     #skills {
         padding: 30px 50px;
+    }
+    #skills div{
+        grid-column: span 4;
     }
 }
 
